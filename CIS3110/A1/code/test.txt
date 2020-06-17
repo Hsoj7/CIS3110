@@ -1,0 +1,9 @@
+Makefile
+ish
+ish.c
+ish.o
+lex.c
+lex.yy.c
+lex.yy.o
+names.txt
+test.txt

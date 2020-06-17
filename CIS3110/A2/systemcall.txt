@@ -1,0 +1,23 @@
+Name: Joshua Stone
+Student Num: 1013900
+mail: jstone04@uoguelph.ca
+
+Overall, what I noticed is that C library functions tend to be quicker for reading files.
+I expected that going into this assignment because I/O systems calls seem to not be used
+that much any more. I noticed that in all cases when reading one byte at a time, the
+system I/O calls was anywhere from 10-50 times slower. Once the read size increases
+though, is becomes not as noticable.
+
+I made 2 different a2output files. a2output.txt includes the results for reading a file
+that was 1 megabyte in size. a2output1.txt includes results from a file that was 10
+megabytes in size. On my computer, the differences were not that noticable for the file
+size 1M.
+
+Model: Dell Inspiron 7000 (Gaming Series)
+CPU: Intel Core i7-7700HQ CPU @ 2.80GHz
+RAM: 16GB
+Hard Disk 1: 256GB Solid State Drive
+Hard Disk 2: 1TB HDD @ 5400RPM
+Graphics Card: GTX 1060
+OS: Windows 10 Home 64Bit
+Virtual Box Version: 6.0.4

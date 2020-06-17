@@ -1,0 +1,35 @@
+Using Unix I/O systems calls to read data_1.txt by 1 bytes per read
+Time took to run: 626ms, 0.626s on file size roughly 1MB
+
+Using C functions to read data_1.txt by 1 byte at a time
+Time took to run: 24ms, 0.024s on file size roughly 1MB
+
+Using Unix I/O systems calls to read data_1.txt by 256 bytes per read
+Time took to run: 10ms, 0.010s on file size roughly 1MB
+
+Using C functions to read data_1.txt by 256 bytes per fread
+Time took to run: 3ms, 0.003s on file size roughly 1MB
+
+Using Unix I/O systems calls to read data_1.txt by 512 bytes per read
+Time took to run: 5ms, 0.005s on file size roughly 1MB
+
+Using C functions to read data_1.txt by 512 bytes per fread
+Time took to run: 2ms, 0.002s on file size roughly 1MB
+
+Using Unix I/O systems calls to read data_1.txt by 1024 bytes per read
+Time took to run: 2ms, 0.002s on file size roughly 1MB
+
+Using C functions to read data_1.txt by 1024 bytes per fread
+Time took to run: 3ms, 0.003s on file size roughly 1MB
+
+Using Unix I/O systems calls to read data_1.txt by 2048 bytes per read
+Time took to run: 2ms, 0.002s on file size roughly 1MB
+
+Using C functions to read data_1.txt by 2048 bytes per fread
+Time took to run: 2ms, 0.002s on file size roughly 1MB
+
+Using Unix I/O systems calls to read data_1.txt by 2096 bytes per read
+Time took to run: 2ms, 0.002s on file size roughly 1MB
+
+Using C functions to read data_1.txt by 2096 bytes per fread
+Time took to run: 3ms, 0.003s on file size roughly 1MB
